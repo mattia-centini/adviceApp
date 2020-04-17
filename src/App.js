@@ -22,7 +22,7 @@ class App extends Component {
       <div className="app">
         <div className="advice-box">
           <span className="message">{this.state.advice}</span>
-          <button className="button" onClick={this.fetchedData}>
+          <button className="hvr-buzz-out" onClick={this.fetchedData}>
             Click Me
           </button>
         </div>
